@@ -157,10 +157,70 @@ section#hero {
     letter-spacing: 0.8px;
 }
 
+/* Servicios */
 
 #servicios {
     background-color: #F6F7FB;
+    border: solid 1px #F6F7FB;
+    padding-bottom: 50px;
+    margin-bottom: 2.5rem;
 }
+
+#servicios_titulo {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.container-card-servicios {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.card-servicios {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 500px;
+    padding: 15px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.08);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.08);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.08);
+
+}
+
+.card-servicios .img {
+    border: solid 1px black;
+    height: 193px;
+}
+
+.card-servicios .img img {
+    width: 100%;
+}
+
+.contenido {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.contenido h1 {
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: left;
+    color: #1E4E79;
+}
+
+.contenido p {
+    font-size: 16px;
+    text-align: justify;
+    color: #6C6C6C;
+}
+
+
+/* Footer */
 
 footer {
     width: 100%;
