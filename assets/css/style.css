@@ -114,6 +114,12 @@ section#hero {
     margin-top: 2.5rem;
 }
 
+.container_main h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
 #sobreNosotros {
     width: 90%;
     margin: auto;
