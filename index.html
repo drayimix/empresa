@@ -6,24 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEGEN</title>
 
-
+    <script src="https://kit.fontawesome.com/477effcca6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container-nav">
-            <div class="logo">
-                <img src="#" alt="Logo-imagen">
+
+    <div class="container">
+        <header class="header" id="home">
+            <div class="container-nav">
+                <div class="logo">
+                    <!-- <img src="#" alt="Logo-imagen"> !-->
+                    <a href="#">Segen Soluciones Integrales</a>
+                </div>
+                <nav class="navegacion">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobreNosotros">Sobre Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                    </ul>
+                </nav>
+                <div class="toggle_btn"><i class="fas fa-bars"></i></div>
             </div>
-            <nav class="navegacion">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
-                </ul>
-            </nav>
+            <div class="menu_responsivo">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobreNosotros">Sobre Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+            </div>
+        </header>
+
+        <div>
+            <section id="hero">
+                <h1>SEGEN - SOLUCIONES INTEGRALES</h1>
+                <p>Para nosotros el lograr tu sueño de obtener vivienda propia es la meta.</p>
+            </section>
         </div>
-    </header>
+    </div>
+
+    <main class="container_main">
+        <section id="sobreNosotros">
+            <div class="card">
+                <div class="icon"><img src="./assets/img/objetivo.png" alt="Icono Mision"></div>
+                <h1>Mision</h1>
+                <p>Somos una organización conformada por un excelente equipo de trabajo
+                    altamente competente, con amplia experiencia, que aporta soluciones
+                    estratégicas aplicando las normas técnicas propias de la consultoría,
+                    Ingeniería, Mantenimiento y Montaje, apuntando siempre a un servicio 
+                    integral en la formulación y ejecución de proyectos a nivel empresarial,
+                    contribuyendo al desarrollo y formación de nuestros clientes, prestando
+                    el mejor servicio con calidad y profesionalismo.
+                </p>
+            </div>
+            <div class="card">
+                <div class="icon"><img src="./assets/img/vision.png" alt="Icono Vision"></div>
+                <h1>Vision</h1>
+                <p>
+                    Nuestra visión es consolidarnos para el año 2028 como una empresa reconocida, competitiva, solida en Consultoría, Ingeniería, Mantenimiento y Montaje, a nivel nacional e internacional, a través del mejoramiento continuo con estándares de calidad, con base a los objetivos propuestos.
+                </p>
+            </div>
+            <div class="card">
+                <div class="icon"><img src="./assets/img/valor.png" alt="Icono Valor"></div>
+                <h1>Valor</h1>
+                <p>
+                    Nuestra empresa posee principios éticos muy profesionales orientados hacia la excelencia y apuntando a la fidelización de nuestros clientes en la cultura del servicio. Contamos con valores solidos que garanticen nuestra misión  sostengan la visión, siempre buscando la coherencia entre el ser y hacer.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
