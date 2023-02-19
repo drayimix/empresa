@@ -174,12 +174,6 @@ section#hero {
     margin-bottom: 2.5rem; 
 }
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: sans-serif;
-}
 .banner{
 	width: 100%;
 	height: 600px;
@@ -190,6 +184,7 @@ section#hero {
 	justify-content: center;
 	align-items: center;
 }
+
 @keyframes banner{
 	0%, 20%{
 		background-image: url("https://fondosmil.com/fondo/12406.jpg");
