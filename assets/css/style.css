@@ -241,16 +241,16 @@ section#hero {
 
 @keyframes banner{
 	0%, 20%{
-		background-image: url("https://fondosmil.com/fondo/12406.jpg");
+		background-image: url("../img/IMG-20230209-WA0036.jpg");
 	}
 	25%, 45%{
-		background-image: url("https://www.todopaisajes.com/Minis/ciudad-de-noche.jpg");
+		background-image: url("../img/IMG-20230209-WA0032.jpg");
 	}
 	50%, 70%{
-		background-image: url("https://i.pinimg.com/originals/b9/1d/fd/b91dfdd21cf816a69ed544d6800680a4.jpg");
+		background-image: url("../img/IMG-20230209-WA0042.jpg");
 	}
 	75%, 100%{
-		background-image: url("https://i.pinimg.com/originals/55/5e/52/555e52ca50443a4d366858dc5c83d540.jpg");
+		background-image: url("../img/IMG-20230209-WA0039.jpg");
 	}
 }
 
@@ -353,6 +353,9 @@ span {
 /* Diseño Responsivo */
 
 @media (max-width: 992px) {
+    .container-card-servicios {
+        grid-template-columns: repeat(2,500px);
+    }
     .container-nav .navegacion ul {
         display: none;
     }
