@@ -193,7 +193,6 @@ section#hero {
 }
 
 .card-servicios .img {
-    border: solid 1px black;
     height: 193px;
 }
 
@@ -239,25 +238,6 @@ section#hero {
 	justify-content: center;
 	align-items: center;
 }
-
-/*
-@keyframes banner{
-	0%, 20%{
-		background-image: url("../img/IMG-20230209-WA0040.jpg");
-	}
-	25%, 45%{
-		background-image: url("../img/IMG-20230209-WA0034.jpg");
-	}
-	50%, 70%{
-		background-image: url("../img/IMG-20230209-WA0030.jpg");
-	}
-	75%, 100%{
-		background-image: url("../img/IMG-20230209-WA0038.jpg");
-	}
-    75%, 100%{
-		background-image: url("../img/IMG-20230209-WA0039.jpg");
-	}
-}*/
 
 @keyframes banner{
 	0%, 20%{
@@ -376,9 +356,6 @@ span {
 /* Diseño Responsivo */
 
 @media (max-width: 992px) {
-    .container-card-servicios {
-        grid-template-columns: repeat(2,500px);
-    }
     .container-nav .navegacion ul {
         display: none;
     }
@@ -395,6 +372,15 @@ span {
         grid-template-columns: repeat(2, 23.75rem);
         column-gap: 50px;
         row-gap: 50px;
+    }
+
+    .container-card-servicios {
+        display: block;
+    }
+
+    .card-servicios {
+        width: 100%;
+        margin: 10px 0;
     }
 }
 
@@ -419,6 +405,19 @@ span {
 
     .container-nav .logo a {
         font-size: 1.4rem;
+    }
+
+    .container-card-servicios {
+        display: block;
+    }
+
+    .card-servicios {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .CP p {
+        text-align: center;
     }
 }
 
