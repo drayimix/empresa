@@ -219,6 +219,27 @@ section#hero {
     color: #6C6C6C;
 }
 
+/* Dotaciones */
+
+#dotaciones {
+    background-color: #F6F7FB;
+    border: solid 1px #F6F7FB;
+    padding-bottom: 50px;
+    margin-bottom: 2.5rem; 
+}
+
+#dotaciones_titulo {
+    margin-top: 15px;
+    font-size: 25px; 
+}
+
+.card-dotaciones p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 0.8px;
+}
+
 /* ASESORIAS */
 
 #asesorias {
@@ -226,6 +247,11 @@ section#hero {
     border: solid 1px #F6F7FB;
     padding-bottom: 50px;
     margin-bottom: 2.5rem; 
+}
+
+#asesorias_titulo {
+    margin-top: 15px;
+    font-size: 25px;
 }
 
 .banner{
