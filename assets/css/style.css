@@ -75,7 +75,8 @@ a:hover {
     display: none;
     position: absolute;
     right: 2.5rem;
-    top: 60px;
+    margin-top: 30px;
+    top: 200px;
     height: 0;
     width: 300px;
     border-radius: 5px;
@@ -86,7 +87,7 @@ a:hover {
 }
 
 .menu_responsivo.open{
-    height: 190px;
+    height: 270px;
 }
 
 .menu_responsivo li {
