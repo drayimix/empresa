@@ -8,6 +8,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+::root{
+    scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -33,7 +37,8 @@ a {
 }
 
 a:hover {
-    color: red;
+    /*color: red;*/
+    color: #9f8ad0;
 }
 
 /* HEADER */
@@ -136,6 +141,7 @@ section#hero {
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
+    color: #9f8ad0;
 }
 
 #sobreNosotros {
@@ -187,6 +193,7 @@ section#hero {
 #servicios_titulo {
     margin-top: 15px;
     font-size: 25px;
+    color: #9f8ad0;
 }
 
 .container-card-servicios {
@@ -237,7 +244,7 @@ section#hero {
 }
 
 /* Dotaciones */
-
+/*
 #dotaciones {
     background-color: #F6F7FB;
     border: solid 1px #F6F7FB;
@@ -249,7 +256,7 @@ section#hero {
     margin-top: 15px;
     font-size: 25px; 
 }
-
+*/
 .gallery{
     background: #f2f2f2;
     border: solid 1px #F6F7FB;
@@ -261,6 +268,7 @@ section#hero {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .img-galeria{
@@ -287,7 +295,8 @@ section#hero {
 }
 .subtitulo{
     text-align: center;
-    margin: 10px;
+    margin-bottom: 40px;
+    color: #9f8ad0;
 }
 
 .card-dotaciones p{
@@ -349,6 +358,19 @@ section#hero {
 	background: rgba(0,0,0,0.6);
 }
 
+.info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info h1{
+    margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+    color: #9f8ad0;
+}
+
+/*
 .info {
 	z-index: 1;
 	width: 100%;
@@ -377,7 +399,7 @@ section#hero {
 	display: inline-block;
 	border-radius: 50px;
 }
-
+*/
 /*obras civiles*/
 .experts{
     display: flex;
@@ -407,6 +429,7 @@ section#hero {
 
 .par{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Footer */
